@@ -7,6 +7,24 @@
 #IncludeRegexTransform: 
 
 /home/geremiapompei/projects/rest_pistache/element.cpp
+utils.h
+/home/geremiapompei/projects/rest_pistache/utils.h
+
+/home/geremiapompei/projects/rest_pistache/main.cpp
+utils.h
+/home/geremiapompei/projects/rest_pistache/utils.h
+element.cpp
+/home/geremiapompei/projects/rest_pistache/element.cpp
+
+/home/geremiapompei/projects/rest_pistache/utils.h
+algorithm
+-
+pistache/http.h
+-
+pistache/router.h
+-
+pistache/endpoint.h
+-
 rapidjson/document.h
 -
 rapidjson/stringbuffer.h
