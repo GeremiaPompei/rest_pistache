@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/geremiapompei/projects/rest_pistache/element.cpp
+rapidjson/document.h
+-
+rapidjson/stringbuffer.h
+-
+rapidjson/writer.h
+-
+
