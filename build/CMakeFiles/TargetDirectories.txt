@@ -1,3 +1,0 @@
-/home/geremiapompei/projects/rest_pistache/build/CMakeFiles/rebuild_cache.dir
-/home/geremiapompei/projects/rest_pistache/build/CMakeFiles/edit_cache.dir
-/home/geremiapompei/projects/rest_pistache/build/CMakeFiles/rest_pistache.dir
