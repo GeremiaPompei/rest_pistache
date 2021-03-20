@@ -9,8 +9,10 @@
 /home/geremiapompei/projects/rest_pistache/client.cpp
 utils.h
 /home/geremiapompei/projects/rest_pistache/utils.h
+element.hpp
+/home/geremiapompei/projects/rest_pistache/element.hpp
 
-/home/geremiapompei/projects/rest_pistache/element.cpp
+/home/geremiapompei/projects/rest_pistache/element.hpp
 utils.h
 /home/geremiapompei/projects/rest_pistache/utils.h
 
@@ -25,8 +27,8 @@ client.cpp
 /home/geremiapompei/projects/rest_pistache/server.cpp
 utils.h
 /home/geremiapompei/projects/rest_pistache/utils.h
-element.cpp
-/home/geremiapompei/projects/rest_pistache/element.cpp
+element.hpp
+/home/geremiapompei/projects/rest_pistache/element.hpp
 
 /home/geremiapompei/projects/rest_pistache/utils.h
 algorithm

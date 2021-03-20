@@ -3,5 +3,10 @@
   "directory": "/home/geremiapompei/projects/rest_pistache/build",
   "command": "/usr/bin/c++     -pthread -g   -std=gnu++14 -o CMakeFiles/rest_pistache.dir/main.cpp.o -c /home/geremiapompei/projects/rest_pistache/main.cpp",
   "file": "/home/geremiapompei/projects/rest_pistache/main.cpp"
+},
+{
+  "directory": "/home/geremiapompei/projects/rest_pistache/build",
+  "command": "/usr/bin/c++     -pthread -g   -std=gnu++14 -o CMakeFiles/rest_pistache.dir/element.cpp.o -c /home/geremiapompei/projects/rest_pistache/element.cpp",
+  "file": "/home/geremiapompei/projects/rest_pistache/element.cpp"
 }
 ]

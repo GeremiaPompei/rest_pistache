@@ -10,6 +10,6 @@ find_package(RapidJSON)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} main.cpp element.cpp)
 
 target_link_libraries(${PROJECT_NAME} pistache_shared)

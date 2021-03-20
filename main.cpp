@@ -2,6 +2,9 @@
 #include "server.cpp"
 #include "client.cpp"
 
+/**
+ * Funzione utile ad inizializzare e far partire l'esecuzione del server.
+ */
 void startServer(int argc, char *argv[]) {
     int nport = 9080;
     Port port(nport);
@@ -20,11 +23,17 @@ void startServer(int argc, char *argv[]) {
     server.start();
 }
 
+/**
+ * Funzione utile a far partire l'esecuzione del client.
+ */
 void startClient() {
     Client client;
     client.start();
 }
 
+/**
+ * Funzione main che prende il server ed il client e li esegue parallelamente su due thread differenti.
+ */
 int main(int argc, char *argv[]) {
     thread server(startServer, argc, argv), client(startClient);
     server.join();

@@ -1,1 +1,1 @@
-/usr/bin/c++   -pthread -g   CMakeFiles/rest_pistache.dir/main.cpp.o  -o rest_pistache  -Wl,-rpath,/usr/local/lib /usr/local/lib/libpistache-0.0.002-git20210107.so.0.0 
+/usr/bin/c++   -pthread -g   CMakeFiles/rest_pistache.dir/main.cpp.o CMakeFiles/rest_pistache.dir/element.cpp.o  -o rest_pistache  -Wl,-rpath,/usr/local/lib /usr/local/lib/libpistache-0.0.002-git20210107.so.0.0 

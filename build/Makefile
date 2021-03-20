@@ -123,6 +123,33 @@ rest_pistache/fast:
 	$(MAKE) -f CMakeFiles/rest_pistache.dir/build.make CMakeFiles/rest_pistache.dir/build
 .PHONY : rest_pistache/fast
 
+element.o: element.cpp.o
+
+.PHONY : element.o
+
+# target to build an object file
+element.cpp.o:
+	$(MAKE) -f CMakeFiles/rest_pistache.dir/build.make CMakeFiles/rest_pistache.dir/element.cpp.o
+.PHONY : element.cpp.o
+
+element.i: element.cpp.i
+
+.PHONY : element.i
+
+# target to preprocess a source file
+element.cpp.i:
+	$(MAKE) -f CMakeFiles/rest_pistache.dir/build.make CMakeFiles/rest_pistache.dir/element.cpp.i
+.PHONY : element.cpp.i
+
+element.s: element.cpp.s
+
+.PHONY : element.s
+
+# target to generate assembly for a file
+element.cpp.s:
+	$(MAKE) -f CMakeFiles/rest_pistache.dir/build.make CMakeFiles/rest_pistache.dir/element.cpp.s
+.PHONY : element.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... rest_pistache"
+	@echo "... element.o"
+	@echo "... element.i"
+	@echo "... element.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
