@@ -8,6 +8,6 @@ find_package(Pistache 0.0.2 REQUIRED)
 
 find_package(RapidJSON)
 
-add_executable(${PROJECT_NAME} main.cpp element.cpp)
+add_executable(${PROJECT_NAME} main.cpp)
 
 target_link_libraries(${PROJECT_NAME} pistache_shared)

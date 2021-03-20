@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/geremiapompei/projects/rest_pistache/client.cpp
+utils.h
+/home/geremiapompei/projects/rest_pistache/utils.h
+
 /home/geremiapompei/projects/rest_pistache/element.cpp
 utils.h
 /home/geremiapompei/projects/rest_pistache/utils.h
@@ -13,11 +17,25 @@ utils.h
 /home/geremiapompei/projects/rest_pistache/main.cpp
 utils.h
 /home/geremiapompei/projects/rest_pistache/utils.h
+server.cpp
+/home/geremiapompei/projects/rest_pistache/server.cpp
+client.cpp
+/home/geremiapompei/projects/rest_pistache/client.cpp
+
+/home/geremiapompei/projects/rest_pistache/server.cpp
+utils.h
+/home/geremiapompei/projects/rest_pistache/utils.h
 element.cpp
 /home/geremiapompei/projects/rest_pistache/element.cpp
 
 /home/geremiapompei/projects/rest_pistache/utils.h
 algorithm
+-
+atomic
+-
+pistache/client.h
+-
+pistache/net.h
 -
 pistache/http.h
 -

@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/rest_pistache.dir/element.cpp.o"
   "CMakeFiles/rest_pistache.dir/main.cpp.o"
   "rest_pistache"
   "rest_pistache.pdb"
