@@ -7,11 +7,22 @@ Per tale progetto sono state utilizzate le librerie [**pistache**](https://githu
 ## Istallazione e Build
 ### Istallazione Pistache
 
-Istallazione per Ubuntu:
+Ubuntu
 ```
 sudo add-apt-repository ppa:pistache+team/unstable
 sudo apt update
 sudo apt install libpistache-dev
+```
+Debian
+```
+git clone https://github.com/pistacheio/pistache
+git submodule update --init
+cd pistache
+mkdir build
+cd build
+cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release ..
+make -j
+make install
 ```
 
 ### Istallazione Rapidjson
