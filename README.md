@@ -62,7 +62,7 @@ Il metodo può essere:
 - **GET** visualizza un Element dal server tramite un certo id.
 - **DEL** elimina un Element dal server con un certo id.
 
-name_element e description_element sono tra parentesi quadre poichè vengono inseriti solo per una richiesta co metodo **POST**.
+*name_element* e *description_element* sono tra parentesi quadre poichè vengono inseriti solo per una richiesta co metodo **POST**.
 
 Per terminare l'esecuzione del *client* basta dare il comando **exit**.
 
