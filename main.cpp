@@ -20,8 +20,13 @@ void startServer(int argc, char *argv[]) {
     server.start();
 }
 
+void startClient() {
+    Client client;
+    client.start();
+}
+
 int main(int argc, char *argv[]) {
-    /*Client client;
-    client.start();*/
-    startServer(argc, argv);
+    thread server(startServer, argc, argv), client(startClient);
+    server.join();
+    client.join();
 }
