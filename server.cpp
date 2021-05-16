@@ -118,6 +118,8 @@ public:
      */
     void start() {
         httpEndpoint->setHandler(router.handler());
+        httpEndpoint->useSSL("../server/server-crt.pem", "../server/server-key.pem");
+        httpEndpoint->useSSLAuth("../rootCA/rootCA-crt.pem");
         httpEndpoint->serve();
     }
     
