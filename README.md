@@ -38,12 +38,17 @@ Se non funziona probabilmente è perché non gli sono stati forniti i privilegi 
 ```
 chmod +x rest_pistache
 ```
-L'eseguibile può essere lanciato con informazioni aggiuntive come il **numero** **di** **porta** dove far partire il server e il **numero** **di** **thread** 
-per l'esecuzione del server. Di default essi sono rispettivamente **9080** e **2**. Per aggiungere tali informazioni basta aggiungerli al posto di N_PORT e 
-N_THREAD in tale comando
+L'eseguibile può essere lanciato con il comando
 ```
-./rest_pistache N_PORT N_THREAD
+./rest_pistache
 ```
+
+## SSL
+Per abilitare il server a funzionare con SSL basta postporre al comando per far partire il programma la stringa **on**
+```
+./rest_pistache on
+```
+**NB**: SSL funziona solo per il server e non per il client. Per verificare se funziona il server basta andare sul browser e provare a connettersi importando il certificato **client.p12** nella cartella *client*. Vi è uno script linux per generare le chiavi e i certificati con OpenSSL chiamato **generate_key.sh**.
 
 ## Funzionamento
 Lanciato il programma esso mette in ascolto il server che stampa i propri messaggi e contemporaneamente mette a disposizione la console per i comandi del client.
@@ -62,10 +67,3 @@ Il metodo può essere:
 Per terminare l'esecuzione del *client* basta dare il comando **exit**.
 
 Per terminare l'esecuzione del *server* e dell'intero programma basta premere CTRL C.
-
-## SSL
-Per abilitare il server a funzionare con SSL basta postporre al comando per far partire il programma la stringa **on**
-```
-./rest_pistache on
-```
-**NB**: SSL funziona solo per il server e non per il client. Per verificare se funziona il server basta andare sul browser e provare a connettersi importando il certificato **client.p12** nella cartella *client*. Vi è uno script linux per generare le chiavi e i certificati con OpenSSL chiamato **generate_key.sh**.
