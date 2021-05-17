@@ -38,10 +38,6 @@ Se non funziona probabilmente è perché non gli sono stati forniti i privilegi 
 ```
 chmod +x rest_pistache
 ```
-L'eseguibile può essere lanciato con il comando
-```
-./rest_pistache
-```
 
 ## SSL
 Per abilitare il server a funzionare con SSL basta postporre al comando per far partire il programma la stringa **on**
