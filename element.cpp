@@ -1,14 +1,14 @@
-#include "element.hpp"
+#include "element.h"
 
-Element::Element(int id, string *name, string *description) {
+Element::Element(int id, string name, string description) {
     id_ = id,
-    name_ = *name;
-    description_ = *description;
+    name_ = name;
+    description_ = description;
 }
         
-Element::Element(string *body) {
+Element::Element(string body) {
     Document doc;
-    doc.Parse(body->c_str());
+    doc.Parse(body.c_str());
     id_ = doc["id"].GetInt();
     name_ = doc["name"].GetString();
     description_ = doc["description"].GetString();

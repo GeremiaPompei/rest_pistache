@@ -1,7 +1,12 @@
 #ifndef ELEMENT_H
 #define ELEMENT_H
 
-#include "utils.h"
+#include <rapidjson/document.h>
+#include <rapidjson/stringbuffer.h>
+#include <rapidjson/writer.h>
+
+using namespace std;
+using namespace rapidjson;
 
 /**
  * Elemento inviato tra client e server.
@@ -18,24 +23,24 @@ class Element {
         /**
          * Nome dell'Element.
          */
-        std::string name_;
+        string name_;
         
         /**
          * Descrizione dell'Element.
          */
-        std::string description_;
+        string description_;
         
     public:
         
         /**
          * Costruttore base dell'Element.
          */
-        Element(int id, string *name, string *description);
+        Element(int id, string name, string description);
         
         /**
          * Costruttore utile a inizializzare un'istanza di un Element data una stringa formattata in json.
          */
-        Element(string *body);
+        Element(string body);
         
         /**
          * Metodo get dell'Id dell'Element.
