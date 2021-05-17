@@ -7,23 +7,7 @@ Per tale progetto sono state utilizzate le librerie [**pistache**](https://githu
 ## Istallazione e Build
 ### Istallazione Pistache
 
-Ubuntu
-```
-sudo add-apt-repository ppa:pistache+team/unstable
-sudo apt update
-sudo apt install libpistache-dev
-```
-Debian
-```
-git clone https://github.com/pistacheio/pistache
-git submodule update --init
-cd pistache
-mkdir build
-cd build
-cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release ..
-make -j
-make install
-```
+Seguire README del progetto [**github**](https://github.com/pistacheio/pistache).
 
 ### Istallazione Rapidjson
 
@@ -78,3 +62,10 @@ Il metodo può essere:
 Per terminare l'esecuzione del *client* basta dare il comando **exit**.
 
 Per terminare l'esecuzione del *server* e dell'intero programma basta premere CTRL C.
+
+## SSL
+Per abilitare il server a funzionare con SSL basta postporre al comando per far partire il programma la stringa **on**
+```
+./rest_pistache on
+```
+**NB**: SSL funziona solo per il server e non per il client. Per verificare se funziona il server basta andare sul browser e provare a connettersi importando il certificato **client.p12** nella cartella *client*. Vi è uno script linux per generare le chiavi e i certificati con OpenSSL chiamato **generate_key.sh**.
